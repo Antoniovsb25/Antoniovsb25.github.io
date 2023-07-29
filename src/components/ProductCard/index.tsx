@@ -1,6 +1,6 @@
 function ProductCard() {
   return (
-    <article className="container flex flex-col w-308px">
+    <article className="container flex flex-col w-308px flex-none snap-align-start">
       <img className="product-image" src="/images/faux.png" />
       <div className="info-container mx-4 flex flex-col">
         <div className="sku-container flex gap-2 my-2">

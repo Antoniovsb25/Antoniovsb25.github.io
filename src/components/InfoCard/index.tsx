@@ -1,7 +1,7 @@
 function InfoCard() {
   return (
-    <section className="info-card-container flex my-24 max-w-screen-2xl m-auto">
-      <div className="text-container flex-shrink w-1/5 flex flex-col justify-center">
+    <section className="info-card-container flex flex-col items-center p-12 md:p-0 gap-4 md:flex-row md:my-24 max-w-screen-2xl m-auto">
+      <div className="text-container flex-shrink md:w-1/5 flex flex-col justify-center">
         <h3 className="title font-bold text-2xl my-6">Lorem ipsum</h3>
         <p className="text-sm">
           Lorem ipsum dolor sit amet, consectetur adipiscing elit. Interdum mauris posuere fusce
@@ -13,9 +13,9 @@ function InfoCard() {
           phasellus donec condimentum sit sapien.
         </p>
       </div>
-      <div className="image-container flex-grow w-4/5 flex justify-end">
+      <div className="image-container flex-grow md:w-4/5 flex justify-end">
         <picture>
-          <source media="(max-width: 650px)" srcSet="/images/infocard-banner-mobile.png" />
+          <source media="(max-width: 640px)" srcSet="/images/infocard-banner-mobile.png" />
           <img src="/images/infocard-banner.png" />
         </picture>
       </div>

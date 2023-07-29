@@ -1,7 +1,7 @@
 function Footer() {
   return (
     <footer>
-      <article className="light-section flex justify-around p-12">
+      <article className="light-section flex flex-col md:flex-row justify-around p-12 gap-4">
         <div className="info flex flex-col gap-6">
           <h4 className="font-bold text-secondary-500">Informações</h4>
           <a href="#">Quem Somos</a>
@@ -21,7 +21,7 @@ function Footer() {
           <a href="#">Endereço</a>
         </div>
       </article>
-      <article className="black-section bg-secondary-500 flex justify-around p-4 items-center">
+      <article className="black-section bg-secondary-500 flex flex-col md:flex-row justify-around p-4 items-center gap-4">
         <div className="social-media flex gap-4">
           <img className="max-h-8" src="/images/linkedin.png" />
           <img className="max-h-8" src="/images/linkedin.png" />
