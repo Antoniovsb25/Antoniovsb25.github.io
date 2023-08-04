@@ -41,13 +41,13 @@ function MainBanner() {
         className="absolute left-0 top-1/2 transform -translate-y-1/2 px-4 py-2 rounded"
         onClick={handlePrevSlide}
       >
-        <img src="/images/_icon-prev.png" />
+        <img src="/images/icon-prev.png" />
       </button>
       <button
         className="absolute right-0 top-1/2 transform -translate-y-1/2 px-4 py-2 rounded"
         onClick={handleNextSlide}
       >
-        <img src="/images/_icon-next.png" />
+        <img src="/images/icon-next.png" />
       </button>
     </div>
   );
