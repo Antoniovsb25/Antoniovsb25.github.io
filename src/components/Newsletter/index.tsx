@@ -5,7 +5,7 @@ function Newsletter() {
         <label className="font-bold text-2xl" htmlFor="inputField">
           Receba nossa Newsletter
         </label>
-        <div className="flex gap-2">
+        <div className="flex gap-2 md:gap-0">
           <input
             className="md:pl-6 md:pr-64 py-2 border border-secondary-500 border-solid rounded"
             type="email"
@@ -13,7 +13,7 @@ function Newsletter() {
             name="inputField"
             placeholder="Digite seu e-mail"
           />
-          <button className="rounded bg-primary text-white font-bold px-12 py-3" type="submit">
+          <button className="md:-m-1 rounded bg-primary text-white font-bold px-12 py-2" type="submit">
             Enviar
           </button>
         </div>

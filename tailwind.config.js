@@ -22,7 +22,7 @@ export default {
         },
       },
       width: {
-        '308px': '308px'
+        '308px': '308px',
       },
       maxWidth: {
         '1920px': '1920px',
